@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0;}
+a {text-decoration:none;color:#747027;}
+a:hover {color:#DF7000;}
+
+#contenu {width :1200px; height: 764px; margin: 0 auto; background-image:url(../rsc/fondsite.jpg); background-position:center; background-repeat:no-repeat; position:relative;}
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#747027; font-weight:100; font-style:italic;position : absolute; margin:0; padding:0; top:230px; left:620px;}
+#logo {margin-top:60px;}
+#menu01 {position : absolute; margin:0; padding:0; top:450px; left:20px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:16px; color:#747027; font-weight:normal;}
+#menu01 ul {list-style-type:none;margin:0; padding:0;}
+#menu01 ul li {text-align: left; height:47px;}
+
+#address {position : absolute; margin:0; padding:0; top:600px; left:20px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:16px; color:#747027; font-weight:normal;}
+#address ul {list-style-type:none;margin:0; padding:0;}
+#address ul li {text-align: left; height:47px;}
+
+#footer {position:fixed; width:100%; height:40px; line-height:40px; padding-left:100px;background-color:rgba(255,255,255,1.00); margin:0; padding:0; bottom:0; left:0; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:12px; color:#747027; font-weight:normal;}
+a#copyright {display:block; width: 200px; height:40px; position: relative; margin:0 auto;}
+
+a#blog {display:block; width:200px; height:50px;color:#A5C936; position:absolute; bottom:20px;}
+a#blog:hover {color:#DF7000;}
+a#behance{display:inline-block;background-image:url(../rsc/behance.png); background-position:center; background-repeat:no-repeat; width:25px; height:25px; margin:0; padding:0;}
+a#behance:hover {background-image:url(../rsc/behance_hover.png); background-position:center; background-repeat:no-repeat;margin:0; padding:0;}
+a#facebook{display:inline-block;background-image:url(../rsc/fb.png); background-position:center; background-repeat:no-repeat;width:25px; height:25px;margin-left:15px;}
+a#facebook:hover {background-image:url(../rsc/fb_hover.png); background-position:center; background-repeat:no-repeat;}
+a#linkedin{display:inline-block;background-image:url(../rsc/linkedin.png); background-position:center; background-repeat:no-repeat; width:25px; height:25px; margin-left:15px;}
+a#linkedin:hover {background-image:url(../rsc/linkedin_hover.png); background-position:center; background-repeat:no-repeat;}
+a#mail{display:inline-block;background-image:url(../rsc/mail.png); background-position:center; background-repeat:no-repeat; width:50px; height:30px; margin:0; padding:0;}
+a#mail:hover {background-image:url(../rsc/mail_hover.png); background-position:center; background-repeat:no-repeat;}
+
